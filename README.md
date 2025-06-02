@@ -20,19 +20,19 @@ The model is trained and evaluated on:
    git clone https://github.com/Abby410/GD-Conformer.git
    cd gd-conformer
 
-  ##Install required packages:
+  ## Install required packages:
   pip install -r requirements.txt
- ##Training
+ ## Training
  Modify the configuration file config.yaml with your dataset paths and hyperparameters, then run:
  python train.py --config config.yaml
 
-##Evaluation
+## Evaluation
 After training, evaluate the model performance with:
 python evaluate.py --model checkpoints/best_model.pth --dataset test_data/
 
-##Results
+## Results
 GD-Conformer achieves state-of-the-art performance across multiple speech enhancement metrics including PESQ, STOI, CSIG, CBAK, and COVL.
 
 
-##Contact
+## Contact
 For questions or collaboration, please contact [1048456641@qq.com].
